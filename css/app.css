@@ -5766,4 +5766,56 @@ button.close {
 img {
   max-width: 100%; }
 
+/*
+ * Nav Bar & Header
+ */
+.companyName {
+  padding-left: 0;
+  font-size: 80px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  color: #f08f72;
+  font-family: 'Great Vibes', cursive; }
+
+.navBarList {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 170px;
+  width: 125px;
+  font-family: 'Great Vibes', cursive; }
+  .navBarList .navBarListName {
+    margin-bottom: 50px; }
+    .navBarList .navBarListName .navBarListLink {
+      text-decoration: none;
+      color: #f08f72;
+      font-size: 40px; }
+      .navBarList .navBarListName .navBarListLink:hover {
+        color: #00c395; }
+
+/*
+ * Home Page
+ */
+.logoContainer {
+  background-color: #00c395;
+  border-radius: 50%;
+  width: 230px;
+  height: 230px;
+  position: relative;
+  left: -35px; }
+
+.logo {
+  position: relative;
+  width: 200px;
+  border-radius: 50%;
+  z-index: 4;
+  left: 15px;
+  bottom: -16px; }
+
+.homePageMainImage {
+  background-image: url("../images/mason-jars.jpg");
+  background-size: cover;
+  height: 600px;
+  z-index: -3;
+  top: -125px; }
+
 /*# sourceMappingURL=app.css.map */
