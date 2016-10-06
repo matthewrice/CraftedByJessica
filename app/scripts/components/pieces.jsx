@@ -1,9 +1,14 @@
 var React = require('react');
+var NavBar = require('./nav-bar.jsx');
+
 
 var Pieces = React.createClass({
   render: function(){
     return (
-      <h1>Crafted By Jessica</h1>
+      <div>
+        <NavBar />
+
+      </div>
     );
   }
 });

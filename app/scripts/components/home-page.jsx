@@ -1,9 +1,19 @@
 var React = require('react');
+var NavBar = require('./nav-bar.jsx');
+
 
 var HomePage = React.createClass({
   render: function(){
     return (
-      <h1>Crafted By Jessica</h1>
+      <div>
+        <NavBar />
+        <div className="col-xs-10">
+          <div className="logoContainer">
+            <img className="logo" src="./images/logo.png" />
+          </div>
+          <div className="homePageMainImage col-md-12"></div>
+        </div>
+      </div>
     );
   }
 });

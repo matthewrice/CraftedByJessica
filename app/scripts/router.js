@@ -35,21 +35,21 @@ var Router = Backbone.Router.extend({
   parties: function(){
     var self = this;
     ReactDOM.render(
-      React.createElement(parties, {router:self}),
+      React.createElement(Parties, {router:self}),
       document.getElementById('app')
     );
   },
   places: function(){
     var self = this;
     ReactDOM.render(
-      React.createElement(places, {router:self}),
+      React.createElement(Places, {router:self}),
       document.getElementById('app')
     );
   },
   about: function(){
     var self = this;
     ReactDOM.render(
-      React.createElement(places, {router:self}),
+      React.createElement(About, {router:self}),
       document.getElementById('app')
     );
   }
