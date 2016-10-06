@@ -3,7 +3,7 @@ var React = require('react');
 var NavBar = React.createClass({
   render: function(){
     return (
-      <div>
+      <div className="navBarComponent">
         <div className="companyName col-md-12">Crafted by Jessica</div>
         <ul className="navBarList col-xs-2">
           <li className="navBarListName">
