@@ -5769,6 +5769,9 @@ img {
 /*
  * Nav Bar & Header
  */
+.navBarComponent {
+  margin-left: 40px; }
+
 .companyName {
   padding-left: 0;
   font-size: 80px;
