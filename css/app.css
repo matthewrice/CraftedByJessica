@@ -5803,6 +5803,9 @@ img {
   .socialIconFacebook:hover {
     color: #00c395; }
 
+a:visited {
+  color: #f08f72; }
+
 .socialIconTwitter {
   position: relative;
   font-size: 35px;
