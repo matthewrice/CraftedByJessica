@@ -5776,15 +5776,56 @@ img {
   padding-left: 0;
   font-size: 80px;
   margin-top: 30px;
-  margin-bottom: 30px;
-  color: #f08f72;
+  color: #00c395;
   font-family: 'Great Vibes', cursive; }
+
+.socialIconPhone,
+.socialIconEnvelope,
+.socialIconLinkedIn,
+.socialIconInstagram,
+.socialIconPinterest,
+.socialIconTwitter,
+.socialIconFacebook {
+  margin-top: 70px;
+  margin-left: 10px;
+  font-size: 30px;
+  color: #f08f72;
+  float: right; }
+  .socialIconPhone:hover,
+  .socialIconEnvelope:hover,
+  .socialIconLinkedIn:hover,
+  .socialIconInstagram:hover,
+  .socialIconPinterest:hover,
+  .socialIconTwitter:hover,
+  .socialIconFacebook:hover {
+    color: #00c395; }
+
+.socialIconTwitter {
+  position: relative;
+  font-size: 35px;
+  top: -5px; }
+
+.socialIconFacebook {
+  font-size: 28px; }
+
+.socialIconPhone {
+  position: relative;
+  top: -5px;
+  font-size: 38px; }
+
+.companyTagLine {
+  font-family: 'Great Vibes', cursive;
+  font-size: 25px;
+  color: #f08f72;
+  margin-left: 40px;
+  margin-top: -10px;
+  margin-bottom: 15px; }
 
 .navBarList {
   list-style: none;
   padding-left: 0;
   margin-top: 170px;
-  width: 125px;
+  width: 145px;
   font-family: 'Great Vibes', cursive; }
   .navBarList .navBarListName {
     margin-bottom: 50px; }
@@ -5804,14 +5845,13 @@ img {
   width: 230px;
   height: 230px;
   position: relative;
-  left: -35px; }
+  left: -25px; }
 
 .logo {
   position: relative;
   width: 200px;
   border-radius: 50%;
   z-index: 4;
-  left: 15px;
   bottom: -16px; }
 
 .homePageMainImage {
@@ -5819,6 +5859,6 @@ img {
   background-size: cover;
   height: 600px;
   z-index: -3;
-  top: -125px; }
+  top: -135px; }
 
 /*# sourceMappingURL=app.css.map */
