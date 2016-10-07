@@ -8,7 +8,7 @@ var HomePage = React.createClass({
       <div>
         <NavBar />
         <div className="col-xs-10">
-          <div className="logoContainer">
+          <div className="logoContainer col-md-12">
             <img className="logo" src="./images/logo.png" />
           </div>
           <div className="homePageMainImage col-md-12"></div>
