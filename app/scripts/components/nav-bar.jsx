@@ -10,10 +10,7 @@ var NavBar = React.createClass({
             <i className="fa fa-mobile" aria-hidden="true"></i>
           </a>
           <a className="socialIconEnvelope" href="mailto:craftedbyjessicaparker@gmail.com">
-            <i className="fa fa-envelope" aria-hidden="true"></i>
-          </a>
-          <a className="socialIconLinkedIn" href="#" target="_blank">
-            <i className="fa fa-linkedin" aria-hidden="true"></i>
+            <i className="fa fa-envelope-o" aria-hidden="true"></i>
           </a>
           <a className="socialIconInstagram" href="#" target="_blank">
             <i className="fa fa-instagram" aria-hidden="true"></i>
