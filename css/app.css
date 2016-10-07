@@ -5830,8 +5830,8 @@ a:visited {
 .navBarList {
   list-style: none;
   padding-left: 0;
-  margin-top: 170px;
-  width: 145px;
+  margin-top: 130px;
+  width: 123px;
   font-family: 'Great Vibes', cursive; }
   .navBarList .navBarListName {
     margin-bottom: 50px; }
@@ -5851,7 +5851,7 @@ a:visited {
   width: 230px;
   height: 230px;
   position: relative;
-  left: -25px; }
+  left: -15px; }
 
 .logo {
   position: relative;
@@ -5865,6 +5865,37 @@ a:visited {
   background-size: cover;
   height: 600px;
   z-index: -3;
-  top: -135px; }
+  top: 70px;
+  position: absolute; }
+
+/*
+ * Footer
+ */
+.websiteFooter {
+  position: relative;
+  right: 11px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  float: right;
+  font-family: 'Abhaya Libre', serif;
+  font-size: 15px;
+  color: #00c395;
+  font-weight: bold; }
+
+.emailFooter,
+.copyrightIcon {
+  margin-left: 20px; }
+
+.copyrightIcon {
+  font-size: 15px; }
+
+.copyrightFooter {
+  margin-left: 3px; }
+
+.websiteFooter a {
+  color: #00c395;
+  text-decoration: none; }
+  .websiteFooter a:hover {
+    color: #f08f72; }
 
 /*# sourceMappingURL=app.css.map */
