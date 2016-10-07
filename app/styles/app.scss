@@ -16,7 +16,6 @@ img {
   max-width: 100%;
 }
 
-
 /*
  * Nav Bar & Header
  */
@@ -52,6 +51,10 @@ img {
   &:hover {
     color: rgb(0,195,149);
   }
+}
+
+a:visited {
+  color: rgb(240,143,114);
 }
 
 .socialIconTwitter {
