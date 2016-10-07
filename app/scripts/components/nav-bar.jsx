@@ -5,7 +5,7 @@ var NavBar = React.createClass({
     return (
       <div className="navBarComponent">
         <div className="companyName col-md-6">Crafted by Jessica</div>
-        <div className="col-xs-6">
+        <div className="col-xs-6 socialIconsContainer">
           <a className="socialIconPhone" href="tel:864-436-6130">
             <i className="fa fa-mobile" aria-hidden="true"></i>
           </a>
